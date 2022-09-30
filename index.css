@@ -16,8 +16,16 @@ header {
 
 #header-2 {
     width: 60%;
-    background: cornflowerblue;
+    background: white;
     height: 50px;
+    display: flex;
+    text-align: right;
+}
+.others{
+ color: grey;
+ }
+#home {
+color:dodgerblue;
 }
 
 body {
@@ -83,11 +91,16 @@ body {
     text-indent: 10px;
 }
 
+#our-clients-say {
+    display: flex;
+}
+
 .container {
     width: 600px;
     margin-right: 10%;
     margin-left: 10%;
 }
+
 .quote {
     background-color: whitesmoke;
     border-top-left-radius: 8px;
@@ -97,7 +110,9 @@ body {
     padding: 20px;
     font-size: 20px;
 }
-.name {
+
+.rewiew {
+    display: flex;
     background-color: white;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -105,7 +120,21 @@ body {
     font-size: 20px;
     padding: 20px;
     text-align: left;
+    height: 60px;
 }
+
+.rewiew-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.stars {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25%;
+}
+
 .checked {
     color: grey;
     text-align: right;
@@ -140,4 +169,10 @@ blockquote h3:after {
     font-weight: bold;
     font-size:40px;
     color:grey;
+}
+#view{
+    color: dodgerblue;
+}
+.hr{
+    color: whitesmoke;
 }
